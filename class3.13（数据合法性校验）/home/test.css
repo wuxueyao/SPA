@@ -1,0 +1,122 @@
+#bg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(./images/reg_bg_min.jpg) no-repeat;
+    background-size: cover;
+    background: none\9;
+    *background: 0 0;
+}
+#title{
+    margin-bottom: 35px;
+}
+#title p{
+    margin-top: -20px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+#title span{
+   color: #2e58ff;
+}
+#box{
+    position: absolute;
+    right: 139px;
+    top: 8.5%;
+    width: 400px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 15px 40px;
+}
+.line{
+    color: #333333;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    text-align:justify;
+    overflow:hidden;
+}
+.msg{
+    padding: 11px 10px;
+    margin: 0;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 300px;
+    color: #000;
+}
+.msg::placeholder{
+    font-size: 12px;
+    color: #ccc;
+}
+.msgspan{
+    height: 18px;
+    line-height: 18px;
+    margin: 2px 0 2px 65px;
+    width: 300px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.warn{
+    height: 18px;
+    line-height: 18px;
+    margin: 2px 0 2px 65px;
+    width: 300px;
+    background: #333;
+    font-size: 10px;
+    color: #fff;
+    display: none;
+}
+#pass{
+    padding: 11px 10px;
+    margin: 0 0 10px 0;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 180px;
+    color: #000;
+}
+#pass::placeholder{
+    font-size: 12px;
+    color: #ccc;
+}
+#passbtn{
+    padding: 11px 10px;
+    margin: 0 0 10px 0;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    width: 115px;
+    color: #333;
+}
+#registerbtn{
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    background: #bdcefc;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+    cursor: pointer;
+}
+#last{
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+#last span{
+   color: #2e58ff;
+}
